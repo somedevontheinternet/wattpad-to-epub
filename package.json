@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "npx tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/he": "^1.2.3",
+    "@types/jsdom": "^21.1.7",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "he": "^1.2.0",
+    "jsdom": "^24.1.0",
+    "jszip": "^3.10.1"
+  }
+}
